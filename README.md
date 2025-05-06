@@ -20,9 +20,10 @@ This project implements a Flask web application that uses a YOLOv8 model for rea
 ---
 ## 📁 Project Structure
 
-'''├── app.py # Flask application 
-   ├── detector.py # YOLOv8 detection and tracking module
-   ├── yolov8n.pt # YOLOv8 pretrained weights
+'''
+├── app.py # Flask application 
+├── detector.py # YOLOv8 detection and tracking module
+├── yolov8n.pt # YOLOv8 pretrained weights
 ├── requirements.txt # Python dependencies
 ├── Dockerfile # Docker configuration
 ├── static/sample_videos/ # Example videos for testing
